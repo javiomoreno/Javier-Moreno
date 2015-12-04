@@ -1,0 +1,152 @@
+@font-face {
+	font-family: "Roboto";
+   	src: url('../Fonts/RobotoCondensed-Light.ttf');
+}
+
+@font-face {
+	font-family: "RobotoCondensed-Bold";
+   	src: url('../Fonts/RobotoCondensed-Bold.ttf');
+}
+
+@font-face {
+	font-family: "Roboto-Bold";
+   	src: url('../Fonts/Roboto-Bold.ttf');
+}
+
+body{
+	font-family: "Roboto";
+	font-size: 16px;
+}
+/* HEADER */
+.navbar-inverse{
+	background-color: #00695C;
+	border-color: #004D40;
+}
+
+.navbar-inverse .navbar-brand{
+	font-family: "Roboto";
+	color: #fff;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+	font-family: "Roboto";
+	color: #fff;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+	background-color: #00897B;
+}
+
+.navbar{
+	margin-bottom: 0;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+	background-color: #00897B;
+}
+
+.navbar-inverse .navbar-toggle{
+	border-color: transparent;
+}
+
+.tituloCabecera{
+	font-size: 63px;
+}
+
+.textoCabecera{
+	font-size: 21px;
+    font-weight: 200;
+}
+
+.cabecera{
+	margin-top: 80px;
+	padding-bottom: 50px;
+	color: #fff;
+}
+
+.letras{
+	padding-top: 50px;
+}
+
+.foto{
+	float: left;
+}
+
+h3{
+	font-family: "Roboto-Bold";
+}
+
+a{
+	font-family: "Roboto-Bold";
+	color: #000;
+}
+
+a:hover{
+	text-decoration: none;
+	color: #000;
+}
+
+.titulo{
+	text-align: center;
+}
+
+#servicios{
+	padding-top: 35px;
+}
+
+.caja-servicios{
+	text-align: center;
+}
+
+.contenido-fluido{
+	background-color: #26A69A;
+	padding-bottom: 10px;
+}
+
+.comunicacion
+{
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+}
+
+.iconosSociales{
+	opacity: 0.8;
+	padding: 10px;
+}
+
+.iconosSociales:hover{
+	opacity: 0.99;
+}
+
+.pie{
+	font-family: "RobotoCondensed-Bold";
+	text-align: center;
+	padding: 10px;
+}
+
+@media (min-width: 768px){
+	.navbar-nav{
+		float: right;
+	}
+}
+
+@media (max-width: 768px){
+	.tituloCabecera{
+		font-size: 36px;
+	}
+
+	.cabecera{
+		text-align: center;
+	}
+
+	.letras{
+		padding-top: 0px;
+	}
+}
+
+@media (max-width: 993px){
+	.tituloCabecera{
+		font-size: 36px;
+	}
+}
