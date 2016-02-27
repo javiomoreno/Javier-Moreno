@@ -13,28 +13,37 @@
    	src: url('../Fonts/Roboto-Bold.ttf');
 }
 
+@font-face {
+	font-family: "AgencyBF";
+   	src: url('../Fonts/agency_fb.ttf');
+}
+
+@font-face {
+	font-family: "ILove";
+   	src: url('../Fonts/i-love-arrow.ttf');
+}
 body{
-	font-family: "Roboto";
-	font-size: 16px;
+	font-family: "AgencyBF";
+	font-size: 20px;
 }
 /* HEADER */
 .navbar-inverse{
-	background-color: #00695C;
-	border-color: #004D40;
+	background-color: #00695c;
+	border-color: #004d40;
 }
 
 .navbar-inverse .navbar-brand{
-	font-family: "Roboto";
+	font-family: "AgencyBF";
 	color: #fff;
 }
 
 .navbar-inverse .navbar-nav>li>a{
-	font-family: "Roboto";
+	font-family: "AgencyBF";
 	color: #fff;
 }
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
-	background-color: #00897B;
+	background-color: #26a69a;
 }
 
 .navbar{
@@ -42,7 +51,7 @@ body{
 }
 
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
-	background-color: #00897B;
+	background-color: #26a69a;
 }
 
 .navbar-inverse .navbar-toggle{
@@ -50,6 +59,7 @@ body{
 }
 
 .tituloCabecera{
+	font-family: "AgencyBF";
 	font-size: 63px;
 }
 
@@ -68,22 +78,38 @@ body{
 	padding-top: 50px;
 }
 
+.negrita{
+	font-weight: bold;
+}
+
 .foto{
 	float: left;
 }
 
 h3{
-	font-family: "Roboto-Bold";
+	font-family: "AgencyBF";
+	font-size: 30px;
 }
 
 a{
-	font-family: "Roboto-Bold";
+	font-family: "AgencyBF";
 	color: #000;
 }
 
 a:hover{
 	text-decoration: none;
 	color: #000;
+}
+
+.negrita{
+	font-weight: bold;
+}
+
+.logo{
+	float: left;
+	width: 50px;
+	height: 50px;
+	opacity: 0.6;
 }
 
 .titulo{
@@ -99,7 +125,7 @@ a:hover{
 }
 
 .contenido-fluido{
-	background-color: #26A69A;
+	background-color: #26a69a;
 	padding-bottom: 10px;
 }
 
@@ -120,7 +146,7 @@ a:hover{
 }
 
 .pie{
-	font-family: "RobotoCondensed-Bold";
+	font-family: "AgencyBF";
 	text-align: center;
 	padding: 10px;
 }
